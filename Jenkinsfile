@@ -34,7 +34,7 @@ pipeline {
         stage('Bulid Gradle') {
           agent any
           steps {
-            echo 'Bulid Gradle'
+            echo 'Bulid Gradle!!'
             dir ('.'){
                 sh """
                 ./gradlew clean build --exclude-task test
